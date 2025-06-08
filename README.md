@@ -1,7 +1,6 @@
 ```
 # 🔥 BITQUANT SOLANA BOT 🔥
-**Automated Solana Chat Bot with Multi-Account & Proxy Support**  
-![Banner](https://i.imgur.com/DsZOmtb.jpeg)
+Automated Solana Chat Bot with Multi-Account & Proxy Support  
 
 > Bot otomatis untuk klaim harian BITQUANT dengan dukungan multi-akun Solana, manajemen proxy cerdas, dan sistem retry canggih.
 
@@ -26,8 +25,8 @@
 ## ⚙️ Instalasi
 1. Clone repository ini:
 ```bash
-git clone https://github.com/username/bitquant-solana-bot.git
-cd bitquant-solana-bot
+git clone https://github.com/dicoderin/bitbot.git
+cd bitbot
 ```
 
 2. Install dependencies:
@@ -43,16 +42,16 @@ npm install
 ## 🚀 Penggunaan
 Jalankan bot dengan:
 ```bash
-node bot.js
+node index.js
 ```
 
 ### Opsi Tambahan:
 ```bash
 # Mode non-interaktif (untuk cronjobs)
-node bot.js --non-interactive
+node index.js --non-interactive
 
 # Non-animasi teks (performansi lebih tinggi)
-node bot.js --no-type
+node index.js --no-type
 ```
 
 ## 🧠 Logika Bot
@@ -79,7 +78,7 @@ sequenceDiagram
 ## 📁 Struktur File
 ```
 bitquant-solana-bot/
-├── bot.js                 # Main script
+├── index.js                 # Main script
 ├── pk.txt                 # Private keys Solana
 ├── pesan.txt              # Daftar pesan acak
 ├── proxy.txt              # Daftar proxy (opsional)
@@ -120,4 +119,3 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE)
 **Version**: 2.0 Solana Edition  
 **Daily Limit**: 20 chats/account  
 **Update Terakhir**: 8 Juni 2025
-```
