@@ -16,7 +16,6 @@ Automated Solana Chat Bot with Multi-Account & Proxy Support
 
 ## 📦 Prasyarat
 - Node.js v18+
-- Akun Solana (dengan saldo gas)
 - File teks berisi private keys (`pk.txt`)
 - File teks berisi pesan (`pesan.txt`)
 - Proxy list (`proxy.txt` - opsional)
