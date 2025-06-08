@@ -1,0 +1,32 @@
+{
+  "name": "bitquant-bot",
+  "version": "2.0.0",
+  "description": "BitQuant Auto Bot for Solana",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --non-interactive --no-type",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solana",
+    "bitquant",
+    "crypto",
+    "bot"
+  ],
+  "author": "NT Exhaust",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.87.5",
+    "axios": "^1.7.2",
+    "bs58": "^5.1.0",
+    "chalk": "^5.3.0",
+    "figlet": "^1.7.0",
+    "gradient-string": "^3.0.0",
+    "https-proxy-agent": "^7.0.4",
+    "moment-timezone": "^0.5.45",
+    "tweetnacl": "^1.0.3"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
