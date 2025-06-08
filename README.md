@@ -24,9 +24,13 @@ Automated Solana Chat Bot with Multi-Account & Proxy Support
 
 ## ⚙️ Instalasi
 1. Clone repository ini:
-```bash
-git clone https://github.com/dicoderin/bitbot.git```
-```cd bitbot```
+```
+bash git clone https://github.com/dicoderin/bitbot.git
+```
+
+```
+cd bitbot
+```
 
 2. Install dependencies:
 ```bash
