@@ -1,4 +1,3 @@
-```
 # 🔥 BITQUANT SOLANA BOT 🔥
 Automated Solana Chat Bot with Multi-Account & Proxy Support  
 
@@ -37,17 +36,15 @@ Automated Solana Chat Bot with Multi-Account & Proxy Support
 
 ## 🚀 Penggunaan
 Jalankan bot dengan:
-```bash
-node index.js```
+```bash node index.js```
 
 ### Opsi Tambahan:
-```bash
+bash
 # Mode non-interaktif (untuk cronjobs)
 node index.js --non-interactive
 
 # Non-animasi teks (performansi lebih tinggi)
 node index.js --no-type
-```
 
 ## 🧠 Logika Bot
 ```mermaid
